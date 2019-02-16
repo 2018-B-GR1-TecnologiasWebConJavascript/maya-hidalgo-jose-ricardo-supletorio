@@ -10,7 +10,7 @@ module.exports = {
   attributes: {
     nombre:{
       type: 'string',
-      regex: /[a-zA-Z\s]+/,
+      regex: /^[a-zA-Z\s]+$/,
       unique: true,
       required: true,
       isIn: [

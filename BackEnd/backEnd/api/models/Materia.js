@@ -12,7 +12,7 @@ module.exports = {
     nombre:{
       type: 'string',
       required: true,
-      regex: /[a-zA-Z\s]+/
+      regex: /^[a-zA-Z\s]+$/
     },
     codigo:{
       type: 'string',

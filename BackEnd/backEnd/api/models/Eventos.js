@@ -13,7 +13,7 @@ module.exports = {
       type: 'String',
       required: true,
       unique: true,
-      regex: /[a-zA-Z\s]+/
+      regex: /^[a-zA-Z\s]+$/
     },
     fecha:{
       type: 'String',

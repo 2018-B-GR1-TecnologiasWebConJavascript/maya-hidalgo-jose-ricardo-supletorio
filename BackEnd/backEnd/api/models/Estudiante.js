@@ -11,12 +11,12 @@ module.exports = {
     nombres:{
       type: 'string',
       required: true,
-      regex: /[a-zA-Z\s]+/
+      regex: /^[a-zA-Z\s]+$/
   },
     apellidos:{
       type: 'string',
       required: true,
-      regex: /[a-zA-Z\s]+/
+      regex: /^[a-zA-Z\s]+$/
     },
     fechaNacimiento:{
       type: 'string',
