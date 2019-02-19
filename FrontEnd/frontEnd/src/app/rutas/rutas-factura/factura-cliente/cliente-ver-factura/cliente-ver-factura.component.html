@@ -1,0 +1,8 @@
+<div *ngIf="objetoActualizar">
+  <app-formu-factura
+    [facturaAux]="objetoActualizar"
+    [cajeroAux]="false"
+    (formularioValido)="actualizar($event)"
+  >
+  </app-formu-factura>
+</div>

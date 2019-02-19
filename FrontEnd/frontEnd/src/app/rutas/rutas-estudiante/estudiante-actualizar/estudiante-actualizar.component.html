@@ -1,0 +1,8 @@
+<div *ngIf="objetoActualizar">
+  <app-formu-estudiante
+    [estudianteAux] = "objetoActualizar"
+    [nombreButtonAux]= "'Actualizar'"
+    (formularioValido)= "actualizar($event)"
+  >
+  </app-formu-estudiante>
+</div>

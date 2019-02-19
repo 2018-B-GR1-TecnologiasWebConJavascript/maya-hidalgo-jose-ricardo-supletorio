@@ -1,0 +1,23 @@
+<div>
+  <h3>Agregar materia a la factura</h3>
+</div>
+<div>
+  <select [(ngModel)]="idMateriaSeleccionado" (mouseup)="seleccionarLibro()" >
+    <option>  </option>
+    <option *ngFor="let materia of eventoPorMateria" [value]="materia.id">{{materia.idMateria.nombre}}</option>
+  </select>
+</div>
+<div>
+  <label for="cantidad">Ingrese la cantidad</label>
+  <input id="cantidad" type="number" [(ngModel)]="facturaDetalle.catidad">
+</div>
+<div>
+  <label for="valor">Ingrese el valor a cancelar</label>
+  <input id="valor" type="number" [(ngModel)]="facturaDetalle.precio">
+</div>
+<div *ngIf="error" style="color: red">
+  <label>{{error}}</label>
+</div>
+<div>
+  <button (click)="anadir()">Agregar Materia</button>
+</div>

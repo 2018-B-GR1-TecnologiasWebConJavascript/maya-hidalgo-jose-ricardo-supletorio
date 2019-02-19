@@ -1,8 +1,8 @@
 <div>
   <h1>Roles del usuario</h1>
 </div>
-<div>
-  <div>
+<div >
+  <div style="width: 30%;float: left">
     <h3>Usuario</h3>
     <table>
       <tr>
@@ -19,9 +19,8 @@
       </tr>
     </table>
   </div>
-
-  <div >
-    <h3>Roles</h3>
+  <div style="width: 30%; float: left">
+    <h3>Roles Asignados</h3>
     <table>
       <tr>
         <td>Rol</td>
@@ -35,14 +34,18 @@
       </tr>
     </table>
   </div>
-
-  <div >
-    <h3>Rol</h3>
-    <select [(ngModel)]="rolSe" >
-      <option *ngFor="let rol of listRoles">{{rol.nombre}}</option>
-    </select>
-    <button  (click)="ejecutar()">
-      Agregar Rol
-    </button>
+  <div style="width: 30%;float: right">
+    <div>
+      <h3>Rol para Asignar</h3>
+      <select [(ngModel)]="rolSe" >
+        <option *ngFor="let rol of listRoles">{{rol.nombre}}</option>
+      </select>
+      <button (click)="ejecutar()">
+        Agregar Rol
+      </button>
+    </div>
+    <div *ngIf="error" style="color: red">
+      <label>{{error}}</label>
+    </div>
   </div>
 </div>

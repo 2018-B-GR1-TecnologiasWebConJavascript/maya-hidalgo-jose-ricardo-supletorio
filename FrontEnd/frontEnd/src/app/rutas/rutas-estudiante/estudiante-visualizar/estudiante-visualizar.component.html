@@ -1,0 +1,43 @@
+<div>
+  <div><h2>Lista de los estudiantes</h2></div>
+</div>
+<div>
+  <a routerLink="/usuario/estudianteCrear">
+    <button>Nuevo estudiante</button>
+  </a>
+</div>
+<div>
+  <div *ngIf="error">
+    <label>{{error}}</label>
+  </div>
+  <div>
+    <label for="buscarUsuaro">BUSCAR</label>
+    <input type="text" name="buscarUsuario" id="buscarUsuaro" placeholder="Busqueda de estudiantes por nombre" [(ngModel)]="textoBuscar">
+    <button (click)="buscarTexto()"> Buscar </button>
+  </div>
+</div>
+<div>
+  <div>
+    <table>
+      <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Fecha de nacimiento</th>
+        <th>Graduado</th>
+        <th>Semestre Actual</th>
+        <th>Acciones</th>
+      </tr>
+      <tr *ngFor="let objeto of estudiantes">
+        <td>{{objeto.nombres}}</td>
+        <td>{{objeto.apellidos}}</td>
+        <td>{{objeto.fechaNacimiento}}</td>
+        <td>{{objeto.graduado}}</td>
+        <td>{{objeto.semestreActual}}</td>
+        <td>
+          <a [routerLink]="['/usuario','estudianteActualizar',objeto.id]" ><button>Actualizar</button></a>
+          <button (click)="eliminar(objeto.id)">Borrar</button>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>

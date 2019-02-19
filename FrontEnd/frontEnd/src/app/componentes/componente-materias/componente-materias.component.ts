@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {Materia} from "../../interfaces/materia";
 
 @Component({
   selector: 'app-componente-materias',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ComponenteMateriasComponent implements OnInit {
 
+  materia = <Materia>{};
+
+  @Input()
+  materiaAux: Materia;
+
   constructor() { }
 
   ngOnInit() {
+    this.materia = JSON.parse(JSON.stringify(this.materiaAux));
   }
 
 }

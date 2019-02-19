@@ -11,7 +11,7 @@ import {EventoPorMateria} from "../../../interfaces/evento-por-materia";
 })
 export class EventoRestService {
 
-  private nombreModelo: string = "/Evento";
+  private nombreModelo: string = "/Eventos";
   constructor(
     private readonly _httpClient: HttpClient
   ) { }

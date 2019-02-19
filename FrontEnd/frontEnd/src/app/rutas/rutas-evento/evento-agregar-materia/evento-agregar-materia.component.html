@@ -1,0 +1,53 @@
+<div>
+  <h3>Anadir Materia al Eventos</h3>
+</div>
+<div style="width: 30%; float: left; height: 100%">
+  <h4>Informacion del Evento</h4>
+  <div>
+    <label> Nombre: {{evento.nombre}}</label>
+  </div>
+  <div>
+    <label> Fecha del evento: {{evento.fecha}}</label>
+  </div>
+</div>
+<div style="width: 30%; float: left; height: 100%">
+  <div>
+    <h3>Materias del Evento</h3>
+  </div>
+  <table>
+    <tr>
+      <th>Nombre</th>
+      <th>Accion</th>
+    </tr>
+    <tr *ngFor="let materia of materias">
+      <td>{{materia.nombre}}</td>
+      <td><button (click)="eliminar(materia.id)">X</button></td>
+    </tr>
+  </table>
+  <div *ngIf="error2" style="color: red">
+    <label>{{error2}}</label>
+  </div>
+</div>
+
+<div style="width: 30%; float: left;height: 100%">
+  <div>
+    <h3>Materias del Usuario</h3>
+    <select [(ngModel)]="idMateriaseleccionado" (mouseup)="seleccionarLibro()">
+      <option>  </option>
+      <option *ngFor="let materia of materiasUsuario" [value]="materia.id">{{materia.nombre}}</option>
+    </select>
+  </div>
+  <div>
+    <label for="preciobase">Precio base</label>
+    <input type="number" id="preciobase"  placeholder="precio base" [(ngModel)]="eventoMateria.precioBase">
+  </div>
+  <div>
+    <button (click)="agregarHijoEvento()">Agregar materias al evento</button>
+  </div>
+  <div>
+    <div *ngIf="error" style="color: red">
+      <label>{{error}}</label>
+    </div>
+  </div>
+</div>
+

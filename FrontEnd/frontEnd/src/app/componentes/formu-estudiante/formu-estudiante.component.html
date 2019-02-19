@@ -1,3 +1,55 @@
-<p>
-  formu-estudiante works!
-</p>
+<div style="text-align: center; padding-top: 15px; color: #001c20">
+  <h3>Formulario de Estudiante</h3>
+</div>
+<div style="padding-left: 30%">
+  <form #formularioEstudiante="ngForm"
+        novalidate
+        (submit)="emitirFormulario(formularioEstudiante)">
+    <div>
+      <label for="nombreEstudiante">Nombre del estudiante</label>
+      <input id="nombreEstudiante" type="text" required name="nombreEstudiante"
+             placeholder="Nombres del estudiante" maxlength="30"
+             [(ngModel)]="estudiante.nombres" #inputNombre="ngModel">
+    </div>
+    <div>
+      <label for="apellidoEstudiante">Apellido del estudiante</label>
+      <input id="apellidoEstudiante" type="text" required name="apellidoEstudiante"
+             placeholder="Apellidos del estudiante" maxlength="30"
+             [(ngModel)]="estudiante.apellidos" #inputApellido="ngModel">
+    </div>
+    <div>
+      <label for="fecha">Fecha de Nacimiento</label>
+      <input id="fecha" type="date" name="fecha" required
+             placeholder="Fecha de nacimiento" maxlength="12"
+             [(ngModel)]="estudiante.fechaNacimiento" #inputFecha="ngModel">
+    </div>
+    <div>
+      <label for="semestreActual">Semestre actual</label>
+      <input id="semestreActual" type="number" name="aemestreActual"
+             placeholder="Semestre" maxlength="5"
+             [(ngModel)]="estudiante.semestreActual" #inputSemestre="ngModel">
+    </div>
+    <div>
+      <label for="graduado">Graduado</label>
+      <div>
+        <input id="graduado" type="radio" name="graduado" [value]="true"
+               [(ngModel)]="estudiante.graduado"> SI
+      </div>
+      <div>
+        <input id="graduado1" type="radio" name="graduado" [value]="false"
+               [(ngModel)]="estudiante.graduado">NO
+      </div>
+    </div>
+    <div *ngIf="formularioEstudiante.invalid" style="color: red">
+      <label>Nombre, Apellido y fecha son campos obligatorios</label>
+    </div>
+    <div *ngIf="error" style="color: red">
+      <label>{{error}}</label>
+    </div>
+    <div>
+      <button [disabled]="formularioEstudiante.invalid">
+        {{nombreButton}}
+      </button>
+    </div>
+  </form>
+</div>

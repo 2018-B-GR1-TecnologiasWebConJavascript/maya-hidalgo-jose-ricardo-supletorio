@@ -1,0 +1,13 @@
+<div>
+  <h3 style="text-align: center; color: #001c20">{{nombreEvento}}</h3>
+</div>
+<div *ngIf="mensaje">
+  <label style="color: red">{{mensaje}}</label>
+</div>
+<div style="text-align: center; padding: 10px" >
+  <div *ngFor="let objeto of materias">
+    <app-componente-materias
+      [materiaAux] = "objeto">
+    </app-componente-materias>
+  </div>
+</div>

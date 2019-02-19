@@ -1,0 +1,47 @@
+<div>
+  <div><h2>Visualizar las materias</h2></div>
+</div>
+<div>
+  <a routerLink="/usuario/materiaCrear"><button>Nueva materia</button></a>
+</div>
+<div>
+  <div *ngIf="error" style="color: red">
+    <label>{{error}}</label>
+  </div>
+  <div>
+    <label for="buscarUsuaro">BUSCAR</label>
+    <input type="text" name="buscarUsuario" id="buscarUsuaro" placeholder="Busqueda de materias por su nombre" [(ngModel)]="textoBuscar">
+    <button (click)="buscarTexto()"> Buscar </button>
+  </div>
+</div>
+<div>
+  <div>
+    <table>
+      <tr>
+        <th>Nombre</th>
+        <th>Codigo</th>
+        <th>Fecha de creacion</th>
+        <th>Activo</th>
+        <th>Cantidad de horas</th>
+        <th>Estudiante</th>
+        <th>Acciones</th>
+      </tr>
+      <tr *ngFor="let objeto of materias">
+        <td>{{objeto.nombre}}</td>
+        <td>{{objeto.codigo}}</td>
+        <td>{{objeto.fechaCreacion}}</td>
+        <td>{{objeto.activo}}</td>
+        <td>{{objeto.numeroHorasPorSemana}}</td>
+        <td>
+          <div *ngIf="objeto.idEstudiante">
+            {{objeto.idEstudiante.nombres}} {{objeto.idEstudiante.apellidos}}
+          </div>
+        </td>
+        <td>
+          <a [routerLink]="['/usuario','materiaActualizar',objeto.id]" ><button>Actualizar</button></a>
+          <button (click)="eliminar(objeto.id)">Borrar</button>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>

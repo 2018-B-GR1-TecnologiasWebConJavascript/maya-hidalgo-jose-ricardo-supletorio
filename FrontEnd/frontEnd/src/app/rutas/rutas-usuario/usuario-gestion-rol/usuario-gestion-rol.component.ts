@@ -16,6 +16,7 @@ export class UsuarioGestionRolComponent implements OnInit {
 
   usuario:Usuario = <Usuario>{};
   rolSe:String = "";
+  error:string = "";
   rolesUsuario:Rol[] = [];
   listRoles: Rol[] = [];
   rolesUsuarioAux:RolesPorUsuario[] = [];
@@ -58,10 +59,11 @@ export class UsuarioGestionRolComponent implements OnInit {
   }
 
   ejecutar(){
+    this.error = "";
     if(this.rolSe != ""){
       if(this.rolesUsuario.length > 0){
         if(this.rolesUsuario.find(rol => rol.nombre === this.rolSe)){
-          alert("el usuario ya esta asigando a ese rol");
+          this.error += "el usuario ya esta asigando a ese rol";
         }else{
           const nueRol$ = this._usuarioRest.agregarRolUser(this.listRoles.find((rol) => rol.nombre === this.rolSe).id,this.usuario.id);
           nueRol$.subscribe(
@@ -85,7 +87,7 @@ export class UsuarioGestionRolComponent implements OnInit {
         );
       }
     }else
-      alert("Selecione algun rol");
+      this.error += "Selecione algun rol";
   }
 
   eliminar(id: number | string){

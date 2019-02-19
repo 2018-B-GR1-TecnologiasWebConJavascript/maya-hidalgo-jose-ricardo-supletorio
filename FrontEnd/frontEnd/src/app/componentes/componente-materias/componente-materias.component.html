@@ -1,3 +1,16 @@
-<p>
-  componente-materias works!
-</p>
+<br>
+<div style="float: left; padding-top: 30px; width: 20%">
+  <h3>Materia</h3>
+  <div *ngIf="materia">
+    <label>{{materia.nombre}}</label> <br>
+    <label>{{materia.codigo}}</label> <br>
+    <div *ngIf="materia.idEstudiante">
+      <label>{{materia.idEstudiante.nombres}} {{materia.idEstudiante.apellidos}}</label> <br>
+    </div>
+    <label>{{materia.fechaCreacion}}</label> <br>
+    <label>{{materia.numeroHorasPorSemana}}</label> <br>
+    <label>{{materia.descripcion}}</label> <br>
+    <label>{{materia.activo}}</label> <br>
+  </div>
+</div>
+

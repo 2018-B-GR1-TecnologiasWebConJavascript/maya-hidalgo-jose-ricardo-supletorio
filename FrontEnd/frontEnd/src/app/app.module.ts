@@ -32,6 +32,23 @@ import { UsuarioVisualizarComponent } from './rutas/rutas-usuario/usuario-visual
 import { UsuarioRegistrarComponent } from './rutas/rutas-usuario/usuario-registrar/usuario-registrar.component';
 import { UsuarioLoginComponent } from './rutas/rutas-usuario/usuario-login/usuario-login.component';
 import { UsuarioGestionRolComponent } from './rutas/rutas-usuario/usuario-gestion-rol/usuario-gestion-rol.component';
+import { VisitanteMainComponent } from './rutas/rutas-principales/visitante-main/visitante-main.component';
+import { NoEncontradoMainComponent } from './rutas/rutas-principales/no-encontrado-main/no-encontrado-main.component';
+import { EventoVisualizarComponent } from './rutas/rutas-evento/evento-visualizar/evento-visualizar.component';
+import { EventoCrearComponent } from './rutas/rutas-evento/evento-crear/evento-crear.component';
+import { EventoAgregarMateriaComponent } from './rutas/rutas-evento/evento-agregar-materia/evento-agregar-materia.component';
+import { EventoVisualizarMateriaComponent } from './rutas/rutas-evento/evento-visualizar-materia/evento-visualizar-materia.component';
+import { EstudianteVisualizarComponent } from './rutas/rutas-estudiante/estudiante-visualizar/estudiante-visualizar.component';
+import { EstudianteCrearComponent } from './rutas/rutas-estudiante/estudiante-crear/estudiante-crear.component';
+import { EstudianteActualizarComponent } from './rutas/rutas-estudiante/estudiante-actualizar/estudiante-actualizar.component';
+import { MateriaVisualizarComponent } from './rutas/rutas-materia/materia-visualizar/materia-visualizar.component';
+import { MateriaCrearComponent } from './rutas/rutas-materia/materia-crear/materia-crear.component';
+import { MateriaActualizarComponent } from './rutas/rutas-materia/materia-actualizar/materia-actualizar.component';
+import { CajeroFacturasComponent } from './rutas/rutas-factura/factura-cajero/cajero-facturas/cajero-facturas.component';
+import { CajeroGestionFacturaComponent } from './rutas/rutas-factura/factura-cajero/cajero-gestion-factura/cajero-gestion-factura.component';
+import { CajeroItemFacturaComponent } from './rutas/rutas-factura/factura-cajero/cajero-item-factura/cajero-item-factura.component';
+import { ClienteFacturasComponent } from './rutas/rutas-factura/factura-cliente/cliente-facturas/cliente-facturas.component';
+import { ClienteVerFacturaComponent } from './rutas/rutas-factura/factura-cliente/cliente-ver-factura/cliente-ver-factura.component';
 
 @NgModule({
   declarations: [
@@ -50,6 +67,23 @@ import { UsuarioGestionRolComponent } from './rutas/rutas-usuario/usuario-gestio
     UsuarioRegistrarComponent,
     UsuarioLoginComponent,
     UsuarioGestionRolComponent,
+    VisitanteMainComponent,
+    NoEncontradoMainComponent,
+    EventoVisualizarComponent,
+    EventoCrearComponent,
+    EventoAgregarMateriaComponent,
+    EventoVisualizarMateriaComponent,
+    EstudianteVisualizarComponent,
+    EstudianteCrearComponent,
+    EstudianteActualizarComponent,
+    MateriaVisualizarComponent,
+    MateriaCrearComponent,
+    MateriaActualizarComponent,
+    CajeroFacturasComponent,
+    CajeroGestionFacturaComponent,
+    CajeroItemFacturaComponent,
+    ClienteFacturasComponent,
+    ClienteVerFacturaComponent,
   ],
   imports: [
     BrowserModule,

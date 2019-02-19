@@ -20,7 +20,7 @@ export class IsUsuarioService implements CanActivate{
         (rol:RolesPorUsuario[]) =>
         {
           if(rol.length>0)
-            if(rol.find(r=> <number>r.idRol ===3))
+            if(rol.find(r=> <number>r.idRol ===2))
               return true;
             else{
               this._route.navigate((['/login']));

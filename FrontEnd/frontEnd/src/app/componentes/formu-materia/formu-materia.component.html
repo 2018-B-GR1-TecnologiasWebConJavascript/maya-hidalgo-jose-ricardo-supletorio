@@ -1,3 +1,73 @@
-<p>
-  formu-materia works!
-</p>
+<div style="text-align: center; padding-top: 15px;color: #001c20">
+  <h3>Formulario de la materia</h3>
+</div>
+<div style="padding-left: 30%">
+  <form #formularioMateria="ngForm"
+        novalidate
+        (submit)="emitirFormulario(formularioMateria)">
+    <div>
+      <label for="nombreMateria">Nombre de la materia</label>
+      <input id="nombreMateria" type="text" required name="nombreMateria"
+             placeholder="Nombre de la materia" maxlength="30"
+             [(ngModel)]="materia.nombre" #inputNombre="ngModel">
+    </div>
+    <div>
+      <label for="codigoMateria">Codigo de la materia</label>
+      <input id="codigoMateria" type="text" required name="codigoMateria"
+             placeholder="Codigo de la materia" maxlength="10"
+             [(ngModel)]="materia.codigo" #inputCodigo="ngModel">
+    </div>
+    <div>
+      <label for="Descripcion">Descripcion sobre la materia</label>
+      <input id="Descripcion" type="text" name="descripcion"
+             placeholder="Descripcion de la materia" maxlength="100"
+             [(ngModel)]="materia.descripcion" #inputDescripcion="ngModel">
+    </div>
+    <div>
+      <label for="activo">Activo</label>
+      <div>
+        <input id="activo" type="radio" name="activo" [value]="true"
+               [(ngModel)]="materia.activo"> SI
+      </div>
+      <div>
+        <input id="activo1" type="radio" name="activo" [value]="false"
+               [(ngModel)]="materia.activo"> NO
+      </div>
+    </div>
+    <div>
+      <label for="fecha">Fecha de creacion</label>
+      <input id="fecha" type="date" name="fecha" required
+             placeholder="Fecha de creacion" maxlength="12"
+             [(ngModel)]="materia.fechaCreacion" #inputFecha="ngModel">
+    </div>
+    <div>
+      <label for="numeroHoras">Numero de horas en la semana</label>
+      <input id="numeroHoras" type="number" name="numeroHoras"
+             placeholder="Numero de horas" maxlength="5"
+             [(ngModel)]="materia.numeroHorasPorSemana" #inputNumHoras="ngModel">
+    </div>
+    <div>
+      <label> Id del estudiante {{materia.idEstudiante}}</label>
+    </div>
+    <div *ngIf="formularioMateria.invalid" style="color: red">
+      <label>Nombre, codigo, fecha y acivo son campos obligatorios</label>
+    </div>
+    <div *ngIf="error" style="color: red">
+      <label>{{error}}</label>
+    </div>
+    <div>
+      <button [disabled]="formularioMateria.invalid">
+        {{nombreButton}}
+      </button>
+    </div>
+  </form>
+</div>
+<div>
+  <div>
+    <h3>Estudiantes</h3>
+    <select [(ngModel)]="idObjAux" (mouseup)="agreagrEstudiante()">
+      <option>  </option>
+      <option *ngFor="let obj of estudiantes" [value]="obj.id">{{obj.nombres}} {{obj.apellidos}}</option>
+    </select>
+  </div>
+</div>
