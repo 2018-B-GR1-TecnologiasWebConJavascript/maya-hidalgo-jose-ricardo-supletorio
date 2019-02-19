@@ -28,6 +28,10 @@ import { UsuarioMainComponent } from './rutas/rutas-principales/usuario-main/usu
 import { AdministradorMainComponent } from './rutas/rutas-principales/administrador-main/administrador-main.component';
 import { CajeroMainComponent } from './rutas/rutas-principales/cajero-main/cajero-main.component';
 import { ClienteMainComponent } from './rutas/rutas-principales/cliente-main/cliente-main.component';
+import { UsuarioVisualizarComponent } from './rutas/rutas-usuario/usuario-visualizar/usuario-visualizar.component';
+import { UsuarioRegistrarComponent } from './rutas/rutas-usuario/usuario-registrar/usuario-registrar.component';
+import { UsuarioLoginComponent } from './rutas/rutas-usuario/usuario-login/usuario-login.component';
+import { UsuarioGestionRolComponent } from './rutas/rutas-usuario/usuario-gestion-rol/usuario-gestion-rol.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +45,11 @@ import { ClienteMainComponent } from './rutas/rutas-principales/cliente-main/cli
     UsuarioMainComponent,
     AdministradorMainComponent,
     CajeroMainComponent,
-    ClienteMainComponent
+    ClienteMainComponent,
+    UsuarioVisualizarComponent,
+    UsuarioRegistrarComponent,
+    UsuarioLoginComponent,
+    UsuarioGestionRolComponent,
   ],
   imports: [
     BrowserModule,

@@ -32,7 +32,7 @@ export class UsuarioRestService {
   }
 
   agregarRolUser(idRol: number |string, idUsuario: number|string):Observable<RolesPorUsuario>{
-    const url = environment.url + "/RolPorUsuario";
+    const url = environment.url + "/RolesPorUsuario";
     const objeto = {
       idRol: idRol,
       idUsuario: idUsuario
@@ -44,8 +44,8 @@ export class UsuarioRestService {
       );
   }
 
-  eliminarrolid(id: number |string){
-    const url = environment.url + "/RolPorUsuario"
+  eliminarrolid(id: number |string) {
+    const url = environment.url + "/RolesPorUsuario"
       + `/${id}`;
     console.log(url);
     this._httpClient

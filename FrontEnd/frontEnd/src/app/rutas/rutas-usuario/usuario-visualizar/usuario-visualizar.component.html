@@ -1,0 +1,36 @@
+<div>
+  <div>
+    <h2>Lista de Usuarios de la aplicacion</h2>
+  </div>
+</div>
+<div>
+  <div *ngIf="error" style="color: red">
+    <label>{{error}}</label>
+  </div>
+</div>
+<div>
+  <div>
+    <label for="buscarUsuaro">BUSCAR</label>
+    <input type="text" name="buscarUsuario" id="buscarUsuaro" placeholder="Busqueda Usuarios por nombre o correo" [(ngModel)]="textoBuscar">
+    <button (click)="buscarTexto()"> Buscar </button>
+  </div>
+  <div>
+    <table>
+      <tr>
+        <th>Nombre</th>
+        <th>Correo</th>
+        <th>Fecha Nacimiento</th>
+        <th>Acciones</th>
+      </tr>
+      <tr *ngFor="let usuario of Usuarios">
+        <td>{{usuario.nombre}}</td>
+        <td>{{usuario.correo}}</td>
+        <td>{{usuario.fechaNacimiento}}</td>
+        <td>
+          <a [routerLink]="['/administrador','actualizarRolUsuario',usuario.id]" ><button>Actualizar Roles</button></a>
+          <button (click)="eliminar(usuario.id)">Eliminar</button>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>

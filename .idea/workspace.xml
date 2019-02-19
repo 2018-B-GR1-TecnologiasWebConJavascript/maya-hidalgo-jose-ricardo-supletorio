@@ -24,32 +24,34 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="db" value="1" />
-          <entry key="html" value="5" />
-          <entry key="js" value="101" />
-          <entry key="ts" value="51" />
+          <entry key="db" value="4" />
+          <entry key="html" value="14" />
+          <entry key="js" value="107" />
+          <entry key="ts" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="5" />
-          <entry key="JavaScript" value="101" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="TypeScript" value="51" />
+          <entry key="HTML" value="14" />
+          <entry key="JavaScript" value="107" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="TypeScript" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="282" />
-          <entry key="js" value="2445" />
-          <entry key="ts" value="1168" />
+          <entry key="db" value="15" />
+          <entry key="html" value="569" />
+          <entry key="js" value="2477" />
+          <entry key="ts" value="2160" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="282" />
-          <entry key="JavaScript" value="2445" />
-          <entry key="TypeScript" value="1168" />
+          <entry key="HTML" value="569" />
+          <entry key="JavaScript" value="2477" />
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="TypeScript" value="2160" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -61,13 +63,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/app-routing.module.ts">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-usuario/usuario-gestion-rol/usuario-gestion-rol.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+            <state relative-caret-position="273">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BackEnd/backEnd/api/controllers/RolesPorUsuarioController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BackEnd/backEnd/config/routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-usuario/usuario-gestion-rol/usuario-gestion-rol.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="88" column="3" lean-forward="true" selection-start-line="88" selection-start-column="3" selection-end-line="88" selection-end-column="3" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/Rest/UsuarioRest/usuario-rest.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="44" column="3" lean-forward="true" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/Rest/RolRest/rol-rest.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,18 +134,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BackEnd/backEnd/api/models/RolesPorUsuario.js" />
-        <option value="$PROJECT_DIR$/BackEnd/backEnd/api/models/EventoPorMateria.js" />
-        <option value="$PROJECT_DIR$/BackEnd/backEnd/api/models/FacturaDetalle.js" />
-        <option value="$PROJECT_DIR$/BackEnd/backEnd/api/models/Eventos.js" />
-        <option value="$PROJECT_DIR$/BackEnd/backEnd/api/models/Estudiante.js" />
-        <option value="$PROJECT_DIR$/BackEnd/backEnd/api/models/Materia.js" />
         <option value="$PROJECT_DIR$/BackEnd/backEnd/api/models/Rol.js" />
         <option value="$PROJECT_DIR$/BackEnd/backEnd/api/models/Usuario.js" />
-        <option value="$PROJECT_DIR$/BackEnd/backEnd/api/controllers/UsuarioController.js" />
         <option value="$PROJECT_DIR$/BackEnd/backEnd/api/models/FacturaCabecera.js" />
         <option value="$PROJECT_DIR$/BackEnd/backEnd/api/controllers/RolesPorUsuarioController.js" />
-        <option value="$PROJECT_DIR$/BackEnd/backEnd/config/routes.js" />
         <option value="$PROJECT_DIR$/BackEnd/backEnd/config/security.js" />
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/interfaces/estudiante.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/interfaces/evento-por-materia.ts" />
@@ -104,15 +149,11 @@
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/interfaces/roles-por-usuario.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/interfaces/usuario.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/validacion/validar-campos.service.ts" />
-        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/environments/environment.ts" />
-        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/autenticarse/autenticar-usuario.service.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/guards/is-administrador.service.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/guards/is-cajero.service.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/guards/is-cliente.service.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/guards/is-usuario.service.ts" />
-        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/Rest/UsuarioRest/usuario-rest.service.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/Rest/RolRest/rol-rest.service.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/Rest/Factura-Rest/FacDetalleRest/factu-detalle-rest.service.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/Rest/Factura-Rest/FacCabeceraRest/factu-cabecera-rest.service.ts" />
@@ -120,7 +161,6 @@
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/Rest/EventoMateriaRest/evento-materia-rest.service.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/Rest/EstudianteRest/estudiante-rest.service.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/Rest/MateriaRest/materia-rest.service.ts" />
-        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-principales/administrador-main/administrador-main.component.html" />
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-principales/cajero-main/cajero-main.component.html" />
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-principales/cliente-main/cliente-main.component.html" />
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-principales/usuario-main/usuario-main.component.html" />
@@ -128,7 +168,23 @@
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-principales/administrador-main/administrador-main.component.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-principales/cajero-main/cajero-main.component.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-principales/cliente-main/cliente-main.component.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/environments/environment.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/autenticarse/autenticar-usuario.service.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-usuario/usuario-login/usuario-login.component.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-usuario/usuario-registrar/usuario-registrar.component.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-usuario/usuario-login/usuario-login.component.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-usuario/usuario-registrar/usuario-registrar.component.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-usuario/usuario-visualizar/usuario-visualizar.component.ts" />
+        <option value="$PROJECT_DIR$/BackEnd/backEnd/.tmp/localDiskDb/db_usuario.db" />
+        <option value="$PROJECT_DIR$/BackEnd/backEnd/api/controllers/UsuarioController.js" />
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/app-routing.module.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-usuario/usuario-visualizar/usuario-visualizar.component.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-principales/administrador-main/administrador-main.component.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-usuario/usuario-gestion-rol/usuario-gestion-rol.component.html" />
+        <option value="$PROJECT_DIR$/BackEnd/backEnd/config/routes.js" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/Rest/UsuarioRest/usuario-rest.service.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-usuario/usuario-gestion-rol/usuario-gestion-rol.component.ts" />
       </list>
     </option>
   </component>
@@ -170,6 +226,39 @@
             <path>
               <item name="maya-hidalgo-jose-ricardo-supletorio" type="b2602c69:ProjectViewProjectNode" />
               <item name="maya-hidalgo-jose-ricardo-supletorio" type="462c0819:PsiDirectoryNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maya-hidalgo-jose-ricardo-supletorio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maya-hidalgo-jose-ricardo-supletorio" type="462c0819:PsiDirectoryNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="backEnd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maya-hidalgo-jose-ricardo-supletorio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maya-hidalgo-jose-ricardo-supletorio" type="462c0819:PsiDirectoryNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="backEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maya-hidalgo-jose-ricardo-supletorio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maya-hidalgo-jose-ricardo-supletorio" type="462c0819:PsiDirectoryNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="backEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maya-hidalgo-jose-ricardo-supletorio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maya-hidalgo-jose-ricardo-supletorio" type="462c0819:PsiDirectoryNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="backEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maya-hidalgo-jose-ricardo-supletorio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maya-hidalgo-jose-ricardo-supletorio" type="462c0819:PsiDirectoryNode" />
               <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -210,7 +299,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="rutas" type="462c0819:PsiDirectoryNode" />
-              <item name="rutas-principales" type="462c0819:PsiDirectoryNode" />
+              <item name="rutas-usuario" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="maya-hidalgo-jose-ricardo-supletorio" type="b2602c69:ProjectViewProjectNode" />
@@ -220,8 +309,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="rutas" type="462c0819:PsiDirectoryNode" />
-              <item name="rutas-principales" type="462c0819:PsiDirectoryNode" />
-              <item name="administrador-main" type="462c0819:PsiDirectoryNode" />
+              <item name="rutas-usuario" type="462c0819:PsiDirectoryNode" />
+              <item name="usuario-gestion-rol" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="maya-hidalgo-jose-ricardo-supletorio" type="b2602c69:ProjectViewProjectNode" />
@@ -230,9 +319,7 @@
               <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="rutas" type="462c0819:PsiDirectoryNode" />
-              <item name="rutas-principales" type="462c0819:PsiDirectoryNode" />
-              <item name="cajero-main" type="462c0819:PsiDirectoryNode" />
+              <item name="servicios" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="maya-hidalgo-jose-ricardo-supletorio" type="b2602c69:ProjectViewProjectNode" />
@@ -241,9 +328,8 @@
               <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="rutas" type="462c0819:PsiDirectoryNode" />
-              <item name="rutas-principales" type="462c0819:PsiDirectoryNode" />
-              <item name="cliente-main" type="462c0819:PsiDirectoryNode" />
+              <item name="servicios" type="462c0819:PsiDirectoryNode" />
+              <item name="Rest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="maya-hidalgo-jose-ricardo-supletorio" type="b2602c69:ProjectViewProjectNode" />
@@ -252,9 +338,28 @@
               <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="rutas" type="462c0819:PsiDirectoryNode" />
-              <item name="rutas-principales" type="462c0819:PsiDirectoryNode" />
-              <item name="usuario-main" type="462c0819:PsiDirectoryNode" />
+              <item name="servicios" type="462c0819:PsiDirectoryNode" />
+              <item name="Rest" type="462c0819:PsiDirectoryNode" />
+              <item name="RolRest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maya-hidalgo-jose-ricardo-supletorio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maya-hidalgo-jose-ricardo-supletorio" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="servicios" type="462c0819:PsiDirectoryNode" />
+              <item name="Rest" type="462c0819:PsiDirectoryNode" />
+              <item name="UsuarioRest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maya-hidalgo-jose-ricardo-supletorio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maya-hidalgo-jose-ricardo-supletorio" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="environments" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -293,12 +398,12 @@
       <updated>1550331630273</updated>
       <workItem from="1550331633393" duration="16004000" />
       <workItem from="1550412051481" duration="4615000" />
-      <workItem from="1550535070409" duration="7928000" />
+      <workItem from="1550535070409" duration="14000000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28547000" />
+    <option name="totallyTimeSpent" value="34619000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -313,21 +418,21 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.43377978" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32738096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="TypeScript" weight="0.3295082" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.37437603" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="0" weight="0.3295082" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3295082" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49925596" weight="0.3737705" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50074404" side_tool="true" weight="0.3737705" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -340,86 +445,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BackEnd/backEnd/.tmp/localDiskDb/db_estudiante.db">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/backEnd/api/controllers/UsuarioController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/backEnd/api/controllers/EstudianteController.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/backEnd/api/controllers/FacturaCabeceraController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/backEnd/api/controllers/RolesPorUsuarioController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/backEnd/config/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/backEnd/config/security.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/backEnd/api/models/Estudiante.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="53" column="6" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="53" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/backEnd/api/models/EventoPorMateria.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/backEnd/api/models/Eventos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="46" column="6" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="46" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/backEnd/api/models/FacturaCabecera.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="72" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/backEnd/api/models/FacturaDetalle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BackEnd/backEnd/api/models/Materia.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
@@ -438,13 +463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackEnd/backEnd/api/models/Usuario.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="48" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -530,16 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/environments/environment.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/guards/is-usuario.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
@@ -570,42 +578,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/autenticarse/autenticar-usuario.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="n#style#0;n#h3#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/Rest/UsuarioRest/usuario-rest.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/Rest/RolRest/rol-rest.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -680,23 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-345">
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-principales/administrador-main/administrador-main.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-principales/cajero-main/cajero-main.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -758,12 +719,182 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/backEnd/api/models/Usuario.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/autenticarse/autenticar-usuario.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/environments/environment.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-usuario/usuario-login/usuario-login.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="42" column="11" lean-forward="true" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-usuario/usuario-login/usuario-login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="99" column="35" selection-start-line="99" selection-start-column="35" selection-end-line="99" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-usuario/usuario-registrar/usuario-registrar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="83" column="35" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-usuario/usuario-registrar/usuario-registrar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#4;n#form#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#form#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/backEnd/.tmp/localDiskDb/db_usuario.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/backEnd/api/controllers/UsuarioController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-usuario/usuario-visualizar/usuario-visualizar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-principales/administrador-main/administrador-main.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-usuario/usuario-visualizar/usuario-visualizar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/app-routing.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        <state relative-caret-position="196">
+          <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/backEnd/config/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/backEnd/api/controllers/RolesPorUsuarioController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/Rest/RolRest/rol-rest.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/Rest/UsuarioRest/usuario-rest.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="44" column="3" lean-forward="true" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-usuario/usuario-gestion-rol/usuario-gestion-rol.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-usuario/usuario-gestion-rol/usuario-gestion-rol.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="88" column="3" lean-forward="true" selection-start-line="88" selection-start-column="3" selection-end-line="88" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>

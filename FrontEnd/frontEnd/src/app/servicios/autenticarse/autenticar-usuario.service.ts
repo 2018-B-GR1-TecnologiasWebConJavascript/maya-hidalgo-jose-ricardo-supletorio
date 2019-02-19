@@ -18,7 +18,7 @@ export class AutenticarUsuarioService {
 
   Login(username: String , pass: String):Observable<Usuario[]>{
     const Objeto ={
-      username: username,
+      nombre: username,
       password: pass
     };
     const usuarios$ = this._httpClient

@@ -6,7 +6,6 @@
  */
 
 module.exports = {
-
   login: async (req, res) => {
     const parametros = req.allParams();
     if(!parametros.nombre.match(/^[a-zA-z\s]+$/))
