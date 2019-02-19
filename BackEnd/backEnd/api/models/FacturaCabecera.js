@@ -11,12 +11,10 @@ module.exports = {
   attributes: {
     nombre:{
       type: 'string',
-      required: true,
       regex: /^[a-zA-Z\s]+$/
     },
     cedulaRuc:{
       type: 'string',
-      required: true,
       minLength: 10,
       maxLength: 13,
       columnName: 'cedula_ruc',
@@ -48,8 +46,6 @@ module.exports = {
     },
     tipoPago:{
       type: 'string',
-      unique: true,
-      required: true,
       isIn: [
         'Efectivo',
         'Tarjeta',

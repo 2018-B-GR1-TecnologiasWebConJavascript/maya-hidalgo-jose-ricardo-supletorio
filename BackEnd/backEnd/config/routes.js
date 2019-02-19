@@ -21,6 +21,9 @@ module.exports.routes = {
 
   '/': { view: 'pages/homepage' },
     'POST /Usuario/login': 'UsuarioController.login',
+  'POST /Usuario/login': 'UsuarioController.login',
+  'POST /RolPorUsuario/rolesUsuarioById': 'RolesPorUsuarioController.rolesporusuarioId',
+  'POST /RolPorUsuario/rolesUsuario': 'RolesPorUsuarioController.rolesUsuario',
 
 
   /***************************************************************************
