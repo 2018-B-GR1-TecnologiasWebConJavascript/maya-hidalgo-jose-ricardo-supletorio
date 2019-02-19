@@ -25,27 +25,31 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="db" value="1" />
+          <entry key="html" value="5" />
           <entry key="js" value="101" />
-          <entry key="ts" value="31" />
+          <entry key="ts" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="HTML" value="5" />
           <entry key="JavaScript" value="101" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="TypeScript" value="31" />
+          <entry key="TypeScript" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="html" value="282" />
           <entry key="js" value="2445" />
-          <entry key="ts" value="732" />
+          <entry key="ts" value="1168" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="HTML" value="282" />
           <entry key="JavaScript" value="2445" />
-          <entry key="TypeScript" value="732" />
+          <entry key="TypeScript" value="1168" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -57,49 +61,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/guards/is-administrador.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="39" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/guards/is-cajero.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/guards/is-cliente.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/guards/is-usuario.service.ts">
+        <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/app-routing.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+            <state relative-caret-position="225">
+              <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
               <folding>
-                <element signature="e#0#43#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -142,6 +110,25 @@
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/guards/is-cajero.service.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/guards/is-cliente.service.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/guards/is-usuario.service.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/Rest/UsuarioRest/usuario-rest.service.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/Rest/RolRest/rol-rest.service.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/Rest/Factura-Rest/FacDetalleRest/factu-detalle-rest.service.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/Rest/Factura-Rest/FacCabeceraRest/factu-cabecera-rest.service.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/Rest/EventoRest/evento-rest.service.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/Rest/EventoMateriaRest/evento-materia-rest.service.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/Rest/EstudianteRest/estudiante-rest.service.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/Rest/MateriaRest/materia-rest.service.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-principales/administrador-main/administrador-main.component.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-principales/cajero-main/cajero-main.component.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-principales/cliente-main/cliente-main.component.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-principales/usuario-main/usuario-main.component.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-principales/usuario-main/usuario-main.component.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-principales/administrador-main/administrador-main.component.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-principales/cajero-main/cajero-main.component.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-principales/cliente-main/cliente-main.component.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/app-routing.module.ts" />
       </list>
     </option>
   </component>
@@ -183,32 +170,6 @@
             <path>
               <item name="maya-hidalgo-jose-ricardo-supletorio" type="b2602c69:ProjectViewProjectNode" />
               <item name="maya-hidalgo-jose-ricardo-supletorio" type="462c0819:PsiDirectoryNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maya-hidalgo-jose-ricardo-supletorio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maya-hidalgo-jose-ricardo-supletorio" type="462c0819:PsiDirectoryNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="backEnd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maya-hidalgo-jose-ricardo-supletorio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maya-hidalgo-jose-ricardo-supletorio" type="462c0819:PsiDirectoryNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="backEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maya-hidalgo-jose-ricardo-supletorio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maya-hidalgo-jose-ricardo-supletorio" type="462c0819:PsiDirectoryNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="backEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maya-hidalgo-jose-ricardo-supletorio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maya-hidalgo-jose-ricardo-supletorio" type="462c0819:PsiDirectoryNode" />
               <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -239,7 +200,7 @@
               <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="rutas" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="maya-hidalgo-jose-ricardo-supletorio" type="b2602c69:ProjectViewProjectNode" />
@@ -248,7 +209,8 @@
               <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="servicios" type="462c0819:PsiDirectoryNode" />
+              <item name="rutas" type="462c0819:PsiDirectoryNode" />
+              <item name="rutas-principales" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="maya-hidalgo-jose-ricardo-supletorio" type="b2602c69:ProjectViewProjectNode" />
@@ -257,8 +219,9 @@
               <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="servicios" type="462c0819:PsiDirectoryNode" />
-              <item name="autenticarse" type="462c0819:PsiDirectoryNode" />
+              <item name="rutas" type="462c0819:PsiDirectoryNode" />
+              <item name="rutas-principales" type="462c0819:PsiDirectoryNode" />
+              <item name="administrador-main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="maya-hidalgo-jose-ricardo-supletorio" type="b2602c69:ProjectViewProjectNode" />
@@ -267,8 +230,9 @@
               <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="servicios" type="462c0819:PsiDirectoryNode" />
-              <item name="guards" type="462c0819:PsiDirectoryNode" />
+              <item name="rutas" type="462c0819:PsiDirectoryNode" />
+              <item name="rutas-principales" type="462c0819:PsiDirectoryNode" />
+              <item name="cajero-main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="maya-hidalgo-jose-ricardo-supletorio" type="b2602c69:ProjectViewProjectNode" />
@@ -276,7 +240,21 @@
               <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
               <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="environments" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="rutas" type="462c0819:PsiDirectoryNode" />
+              <item name="rutas-principales" type="462c0819:PsiDirectoryNode" />
+              <item name="cliente-main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maya-hidalgo-jose-ricardo-supletorio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maya-hidalgo-jose-ricardo-supletorio" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="rutas" type="462c0819:PsiDirectoryNode" />
+              <item name="rutas-principales" type="462c0819:PsiDirectoryNode" />
+              <item name="usuario-main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -315,12 +293,12 @@
       <updated>1550331630273</updated>
       <workItem from="1550331633393" duration="16004000" />
       <workItem from="1550412051481" duration="4615000" />
-      <workItem from="1550535070409" duration="2994000" />
+      <workItem from="1550535070409" duration="7928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23613000" />
+    <option name="totallyTimeSpent" value="28547000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -335,7 +313,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24553572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.43377978" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" weight="0.3295082" />
@@ -348,7 +326,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.37540984" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.37437603" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -562,30 +540,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/autenticarse/autenticar-usuario.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/guards/is-administrador.service.ts">
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/guards/is-usuario.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="39" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/guards/is-cajero.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="46" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
@@ -594,20 +552,218 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/guards/is-cliente.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        <state>
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/guards/is-usuario.service.ts">
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/guards/is-cajero.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+        <state relative-caret-position="18">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/autenticarse/autenticar-usuario.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/Rest/UsuarioRest/usuario-rest.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/Rest/RolRest/rol-rest.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/Rest/Factura-Rest/FacDetalleRest/factu-detalle-rest.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/Rest/Factura-Rest/FacCabeceraRest/factu-cabecera-rest.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/Rest/EventoRest/evento-rest.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="49" lean-forward="true" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/Rest/EventoMateriaRest/evento-materia-rest.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/guards/is-administrador.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/Rest/EstudianteRest/estudiante-rest.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/Rest/MateriaRest/materia-rest.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345">
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-principales/administrador-main/administrador-main.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-principales/cajero-main/cajero-main.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-principales/cliente-main/cliente-main.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-principales/usuario-main/usuario-main.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-principales/usuario-main/usuario-main.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-principales/cajero-main/cajero-main.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-principales/cliente-main/cliente-main.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-principales/administrador-main/administrador-main.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
