@@ -15,7 +15,7 @@
     <session id="461334776">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -26,33 +26,33 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="db" value="4" />
-          <entry key="html" value="73" />
+          <entry key="html" value="74" />
           <entry key="js" value="107" />
-          <entry key="ts" value="146" />
+          <entry key="ts" value="147" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="73" />
+          <entry key="HTML" value="74" />
           <entry key="JavaScript" value="107" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="TypeScript" value="146" />
+          <entry key="TypeScript" value="147" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="db" value="15" />
-          <entry key="html" value="3037" />
+          <entry key="html" value="3227" />
           <entry key="js" value="2477" />
-          <entry key="ts" value="6005" />
+          <entry key="ts" value="6007" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="3037" />
+          <entry key="HTML" value="3227" />
           <entry key="JavaScript" value="2477" />
           <entry key="PLAIN_TEXT" value="15" />
-          <entry key="TypeScript" value="6005" />
+          <entry key="TypeScript" value="6007" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -112,11 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/componentes/formu-factura/formu-factura.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+            <state relative-caret-position="493">
+              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#!!top" expanded="true" />
@@ -125,6 +125,24 @@
                 <element signature="n#style#0;n#div#15;n#form#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#16;n#form#0;n#div#1;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/app.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/app.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -158,8 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-usuario/usuario-login/usuario-login.component.ts" />
-        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-usuario/usuario-gestion-rol/usuario-gestion-rol.component.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-usuario/usuario-gestion-rol/usuario-gestion-rol.component.html" />
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-principales/visitante-main/visitante-main.component.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-principales/no-encontrado-main/no-encontrado-main.component.html" />
@@ -209,6 +225,8 @@
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-factura/factura-cajero/cajero-facturas/cajero-facturas.component.html" />
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/componentes/formu-factura/formu-factura.component.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/componentes/formu-factura/formu-factura.component.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/frontEnd/src/app/app.component.html" />
       </list>
     </option>
   </component>
@@ -273,78 +291,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="maya-hidalgo-jose-ricardo-supletorio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maya-hidalgo-jose-ricardo-supletorio" type="462c0819:PsiDirectoryNode" />
-              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="componentes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maya-hidalgo-jose-ricardo-supletorio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maya-hidalgo-jose-ricardo-supletorio" type="462c0819:PsiDirectoryNode" />
-              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="componentes" type="462c0819:PsiDirectoryNode" />
-              <item name="formu-factura" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maya-hidalgo-jose-ricardo-supletorio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maya-hidalgo-jose-ricardo-supletorio" type="462c0819:PsiDirectoryNode" />
-              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="rutas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maya-hidalgo-jose-ricardo-supletorio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maya-hidalgo-jose-ricardo-supletorio" type="462c0819:PsiDirectoryNode" />
-              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="rutas" type="462c0819:PsiDirectoryNode" />
-              <item name="rutas-factura" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maya-hidalgo-jose-ricardo-supletorio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maya-hidalgo-jose-ricardo-supletorio" type="462c0819:PsiDirectoryNode" />
-              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="rutas" type="462c0819:PsiDirectoryNode" />
-              <item name="rutas-factura" type="462c0819:PsiDirectoryNode" />
-              <item name="factura-cajero" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maya-hidalgo-jose-ricardo-supletorio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maya-hidalgo-jose-ricardo-supletorio" type="462c0819:PsiDirectoryNode" />
-              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="rutas" type="462c0819:PsiDirectoryNode" />
-              <item name="rutas-factura" type="462c0819:PsiDirectoryNode" />
-              <item name="factura-cajero" type="462c0819:PsiDirectoryNode" />
-              <item name="cajero-gestion-factura" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maya-hidalgo-jose-ricardo-supletorio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maya-hidalgo-jose-ricardo-supletorio" type="462c0819:PsiDirectoryNode" />
-              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="rutas" type="462c0819:PsiDirectoryNode" />
-              <item name="rutas-factura" type="462c0819:PsiDirectoryNode" />
-              <item name="factura-cliente" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -383,12 +329,12 @@
       <workItem from="1550331633393" duration="16004000" />
       <workItem from="1550412051481" duration="4615000" />
       <workItem from="1550535070409" duration="16941000" />
-      <workItem from="1550575308876" duration="21303000" />
+      <workItem from="1550575308876" duration="21747000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58863000" />
+    <option name="totallyTimeSpent" value="59307000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -403,7 +349,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27827382" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27827382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="0" weight="0.3295082" />
@@ -430,23 +376,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-evento/evento-crear/evento-crear.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/servicios/Rest/EventoRest/evento-rest.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/rutas/rutas-evento/evento-crear/evento-crear.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -899,8 +828,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/componentes/formu-factura/formu-factura.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        <state relative-caret-position="493">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#!!top" expanded="true" />
@@ -909,6 +838,20 @@
             <element signature="n#style#0;n#div#15;n#form#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#16;n#form#0;n#div#1;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/frontEnd/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
         </state>
       </provider>
     </entry>
